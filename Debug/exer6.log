@@ -1,0 +1,19 @@
+﻿Build started 2015-12-07 19:41:31.
+     1>Project "C:\Users\d038395\GoogleDrive\PhD\High level synthesis\openCL\HandsOnOpenCL\exer6\exer6\exer6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Intel\OpenCL SDK\5.3\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D CL_USE_DEPRECATED_OPENCL_1_2_APIS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt matmul.c matrix_lib.c
+         matrix_lib.c
+     1>c:\users\d038395\googledrive\phd\high level synthesis\opencl\handsonopencl\exer6\exer6\matrix_lib.c(104): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\d038395\googledrive\phd\high level synthesis\opencl\handsonopencl\exer6\exer6\matrix_lib.c(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         matmul.c
+         Generating Code...
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\d038395\GoogleDrive\PhD\High level synthesis\openCL\HandsOnOpenCL\exer6\Debug\exer6.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\OpenCL SDK\5.3\lib\x86" OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\d038395\GoogleDrive\PhD\High level synthesis\openCL\HandsOnOpenCL\exer6\Debug\exer6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\d038395\GoogleDrive\PhD\High level synthesis\openCL\HandsOnOpenCL\exer6\Debug\exer6.lib" /MACHINE:X86 Debug\matmul.obj
+         Debug\matrix_lib.obj
+         Debug\wtime.obj
+         exer6.vcxproj -> C:\Users\d038395\GoogleDrive\PhD\High level synthesis\openCL\HandsOnOpenCL\exer6\Debug\exer6.exe
+     1>Done Building Project "C:\Users\d038395\GoogleDrive\PhD\High level synthesis\openCL\HandsOnOpenCL\exer6\exer6\exer6.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.60
